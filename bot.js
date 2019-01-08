@@ -14,7 +14,7 @@ npm i discord.js
 */
 var guilds = {};
 client.on('guildBanAdd', function(guild) {
-            const rebellog = client.channels.find("name", "hack-log"),
+            const rebellog = client.channels.find("name", "bo"),
             Onumber = 3,
   Otime = 10000
 guild.fetchAuditLogs({
@@ -52,7 +52,7 @@ console.log(error)
 });
  let channelc = {};
   client.on('channelCreate', async (channel) => {
-  const rebellog = client.channels.find("name", "hack-log"),
+  const rebellog = client.channels.find("name", "bo"),
   Oguild = channel.guild,
   Onumber = 3,
   Otime = 10000;
@@ -79,7 +79,7 @@ channel.guild.owner.send(`<@!${channelcreate.id}>
 
 let channelr = {};
   client.on('channelDelete', async (channel) => {
-  const rebellog = client.channels.find("name", "hack-log"),
+  const rebellog = client.channels.find("name", "bo"),
   Oguild = channel.guild,
   Onumber = 3,
   Otime = 10000;
